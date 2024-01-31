@@ -1,0 +1,86 @@
+.cont{
+    background-color: rgb(238, 237, 237);
+    border-radius: 10px;
+}
+.btn-secondary{
+    background-color: rgb(5, 5, 43);
+    width: 450px;
+}
+.laire{
+    background-color: rgb(238, 237, 237);
+    box-shadow: 0px 7px 29px 0px; 
+    border-radius: 10px;
+} 
+.green{
+    color: green;
+
+}
+.sold{
+    background-color: rgb(238, 237, 237);
+    box-shadow: 0px 7px 29px 0px; 
+    border-radius: 10px;
+}
+.fcfa{
+    color: red;
+}
+.augment{
+     width: 200px; 
+}
+.typeAug{
+    width: 450px;
+
+}
+.resert{
+   
+    border-radius: 10px;
+    background-color: rgb(222, 220, 220);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    
+   }
+/* tableau pagination */
+.affiche{
+    display: none;
+}
+/* parti modal */
+.detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tableau{
+    width: 100%;
+    margin: auto;
+}
+.d{
+    display: flex;
+    justify-content: space-between;
+}
+#edit{
+    display: none;
+}
+  
+@media  screen and (max-width: 768px) {
+    .augment {
+        width: 100px;
+    }
+    .typeAug{
+        width: 210px;
+
+    }
+    .btn-secondary{
+        width: 210px;
+
+    } 
+    .tableau{
+        width: 80%;
+       
+    }
+    
+   
+    
+
+}
